@@ -1,0 +1,20 @@
+{
+  "name": "twitter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf node_modules && rm -rf dist && rm -rf package-lock.json"
+
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "sass": "^1.58.0",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.1.0"
+  }
+}
